@@ -15,25 +15,17 @@
 
 @font-face {
   font-family: 'lato';
-  src: url('/assets/Lato') format('lato');
-  font-weight: normal;
-  font-style: normal;
+  src: url('/assets/Lato/Lato/Lato-Regular.ttf') ;
+
 }
 :root {
   --color-primary: #566534;
   --color-primary-hover: rgb(0 128 0 / 0.82);
   --color-primary-soft: #f0fdf4;
   --color-focus: #15803d;
-  --font-sans: "Inter", system-ui, sans-serif;
+  --font-sans: "lato", system-ui, sans-serif;
   --radius: 4px;
 }
 
 
 
-H2{
-  --color-primary: blue;
-  --color-primary-hover: rgb(0 8 80 / 0.82);
-  --color-primary-soft:  #eff6ff;
-  --color-focus: #5064fe;
-  font-family: lato, serif;
-}
