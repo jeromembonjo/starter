@@ -11,9 +11,9 @@
    ========================================================================== */
 /* css/base.css */
 html {
-    font-family: var(--font-sans);
+    font-family: var(--font-sans), serif;
     font-size: 100%;
-    color: var(--color-text);
+    color: var(--green-800);
     background-color: var(--color-bg);
 }
 
