@@ -11,14 +11,14 @@
    ========================================================================== */
 /* css/base.css */
 html {
-    font-family: var(--font-sans), serif;
+    font-family: var(--font-mono), serif;
     font-size: 100%;
     color: var(--green-800);
     background-color: var(--color-bg);
 }
 
 body {
-    font-size: var(--text-base);
+    font-size: var(--text-sm);
     line-height: var(--leading-normal);
 }
 
@@ -26,12 +26,12 @@ h1, h2, h3, h4 {
     line-height: var(--leading-tight);
     font-weight: var(--weight-semibold);
 }
-
+hr{line-height: var(--leading-normal);}
 h1 { font-size: var(--text-2xl); }
 h2 { font-size: var(--text-xl); }
 h3 { font-size: var(--text-lg); }
 h4 { font-size: var(--text-base); }
-
+strong{font-size: var(--text-xl)}
 @media (min-width: 64em) {
     h1 { font-size: var(--text-3xl); }
 }
